@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+	
+	float a, p, r;
+	printf("Peso | Altura \n");
+	scanf("%f %f", &p, &a);
+	
+	r= p/(a*a);
+	
+	printf("IMC = %.1f", r);
+	
+	return 0;
+}

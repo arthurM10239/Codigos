@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+	int l;
+	printf("Comprimento de um lado\n");
+	scanf("%d", &l);
+	l= l*3;
+	printf("%d", l);
+	return 0;
+}

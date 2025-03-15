@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	
+	float valor, juros, anos, m;
+	
+	printf("Capital Aplicado|Juros|Anos\n");
+	scanf("%f %f %f", &valor, &juros, &anos);
+	
+	juros /=100;
+	m = valor*pow(1+juros, anos);
+	
+		printf("%f", m);
+	return 0;
+}

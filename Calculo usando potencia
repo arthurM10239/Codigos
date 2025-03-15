@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+int n, e;
+	printf("Numero|Expoente\n");
+	scanf("%d %d", &n, &e);
+	
+	n= pow(n, e);
+	printf("Potencia = %d", n);
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+int v;
+
+	scanf("%d", &v);
+
+v = sqrt(v);
+
+printf("Raiz Quadrada = %d", v);
+	
+}

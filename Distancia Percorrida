@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	int ac, t, dp;
+	
+	printf("Aceleracao|Tempo\n");
+	scanf("%d %d", &ac, &t);
+	
+	dp= 0.5*ac*pow(t,2);
+	printf("Distancia Percorrida(m/s2) = %d", dp);
+	
+	return 0;
+}

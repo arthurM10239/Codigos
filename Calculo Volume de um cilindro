@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+float V, pi =3.14159;
+int r, a;
+	printf("Raio|Altura\n");
+	scanf("%d %d", &r, &a);
+	
+V=pi*pow(r,2)*a;
+printf("Resultado = %.2f", V);
+
+return 0;
+}

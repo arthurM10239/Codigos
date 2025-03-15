@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+ float km, mi= 0.6214;
+ printf("Distancia(Km) = ");
+ scanf("%f", &km);
+ 
+ mi = km*mi;
+ printf("%.2f", mi);
+
+return 0;
+}
